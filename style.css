@@ -10,7 +10,7 @@ del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
+ form, label,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
@@ -56,7 +56,7 @@ body{
 /* ---------------------- */
 .main{
     background-color: #5A3EBF;
-    background-image: url(./images/main.jpg);
+    background-image: url(./images/main.jpg) /*,linear gradient(#372AAF)*/;
     width: 100%;
     height:700px;
     background-repeat: no-repeat;
@@ -169,9 +169,17 @@ h4{
     font-weight: 700;
 }
 .join_c1{
-    border: 3px dashed #F9234D;
     padding: 20px;
     width: 26%;
+}
+fieldset{
+    border: 4px dashed #F9234D;
+}
+legend{
+    padding: 0px 10px;
+    color: #F9234D;
+    font-size: 36px;
+    font-weight:700;
 }
 h5{
     font-size: 30px;
@@ -304,6 +312,30 @@ iframe{
 a{
     font-size: 22px;
 }
+.sec-last{
+  background-color: #23347B;
+}
+.sec-last-column{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sec-last-c1{
+    width: 50%
+}
+.sec-last-c1 a{
+    padding-top: 20px;
+    text-decoration: none;
+    color: silver;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.about-quick-links{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px 0px;
+}
 footer{
     background-color: #102169;
     padding: 30px 0px;
@@ -313,6 +345,9 @@ footer p{
     color: silver;
     font-size: 18px;
 }
+
+
+
 /* 
 *
 *
@@ -328,7 +363,24 @@ footer p{
 
 @media screen and (max-device-width:768px), screen and (max-width:768px){
     header{
-        display: block;
+        display: flex;
+    }
+    nav{
+
+        padding-right: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      /*  background-color: #3827AC;*/
+    }
+    nav a{
+        display:flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        padding:20px 0px;
+        width: 100%
+    }
+    h1{
         text-align: center;
     }
     .main{
