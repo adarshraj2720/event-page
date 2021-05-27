@@ -366,22 +366,12 @@ footer p{
         display: flex;
     }
     nav{
-
-        padding-right: 20px;
-        padding-top: 20px;
-        padding-bottom: 20px;
       /*  background-color: #3827AC;*/
     }
     nav a{
         display:flex;
         flex-direction: column;
-        align-content: center;
-        justify-content: center;
-        padding:20px 0px;
-        width: 100%
-    }
-    h1{
-        text-align: center;
+       padding-bottom: 20px;
     }
     .main{
         height: auto;
