@@ -279,7 +279,7 @@ h6{
 .bulb{
     background-color: #F9234D;
     border-radius: 5px;
-    padding: 10px;
+    padding: 15px 0;
 }
 .fifth-img{
     width: 100%;
@@ -465,7 +465,7 @@ footer p{
     /* .toggle-btn{
         display: block;
     } */
-  
+
 
     .main{
         height: auto;
@@ -493,6 +493,7 @@ footer p{
         display: flex;
         flex-direction: column;
     }
+  
     .event_c1{
         width: 100%;
     }
@@ -508,17 +509,17 @@ footer p{
     }
     .heading-block-sch{
         padding-top: 100px;
-        width: 100%;
+        width: 82%;
     }
     h6{
         padding-bottom: 20px;
     }
     .about-h6{
-        font-size: 14px;
+        font-size: 12px;
         padding-bottom: 20px;
     }
     .sch-img-block{
-        width: 100%;
+        width: 82%;
     }
     .sch-img{
         width: 100%;
