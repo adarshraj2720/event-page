@@ -1,28 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+    <title></title>
     <link rel="stylesheet" type="text/css" href="./style.css">
+    <script src="https://kit.fontawesome.com/cbd72baf56.js" crossorigin="anonymous"></script>
     <meta charset="utf-8">
 </head>
 <body>
 <section class="main">
     <header>
-        <h1>EVENT...</h1>
+        <div>
+            <h1> EVENT...</h1>
+        </div>
+        <label class="bars" for="toggle">
+            <i class="fas fa-bars"></i>
+        </label>
+        <input id="toggle" type="checkbox">
         <nav >
+            <div class="sm-column">
             <a href="#">HOME</a>
             <a href="#">ABOUT</a>
             <a href="#">SERVICES</a>
             <a href="#">CONTACT</a>
-            <button class="join-btn">Join Us</button>
+            <button class="join-btn joinbtn">Join Us</button>
+        </div>
+        
         </nav>
-        <div class="toggle-btn">
+        <!-- <div class="toggle-btn">
             <div class="toggle"></div>
             <div class="toggle"></div>
             <div class="toggle"></div>
-        </div>    
+        </div>     -->
     </header>
-    <div class="main_head padding">
+    <div class="main_head padding order-1">
         <div class="main_c1">
             <h2>Web Developer<br>Conference<span class="pink">2020</span></h2>
             <p class="about_h2">Lorem Ipsum has been the industry's standard dummy text ever since 
@@ -31,8 +41,8 @@
             </p>
             <button class="register-btn join-btn">Register Now</button>
         </div>
-        <div class="main_c2">
-            <img class="singer" src="./images/singer.jpg">
+        <div class="main_c2 ">
+            <img class="singer " src="./images/singer.jpg">
         </div> 
     </div>
 </section>
@@ -53,8 +63,8 @@
     <h4>Why You Should Join</h4>
     <div class="join-column">
         <div class="join_c1">
-        	<fieldset>
-        		<legend>1</legend>
+            <fieldset>
+                <legend>1</legend>
             <h5>Network</h5>
             <p class="about-h5">Lorem Ipsum has been the industry's standard
                 dummy text ever since the 1500s, when an
@@ -64,19 +74,19 @@
             </fieldset>
         </div>
         <div class="join_c1">
-        	<fieldset>
-        		<legend>2</legend>
+            <fieldset>
+                <legend>2</legend>
             <h5>Great Speaker</h5>
             <p class="about-h5">Lorem Ipsum has been the industry's standard
                 dummy text ever since the 1500s, when an
                 unknown printer took a galley of type and
                 scrambled it to make a type specimen book.
             </p>
-        	</fieldset>
+            </fieldset>
         </div>
         <div class="join_c1">
-        	<fieldset>
-        		<legend>3</legend>
+            <fieldset>
+                <legend>3</legend>
             <h5>Information</h5>
             <p class="about-h5">Lorem Ipsum has been the industry's standard
                 dummy text ever since the 1500s, when an
@@ -91,7 +101,7 @@
     <h4>Schedule</h4>
     <div class="sch_c1">
         <div class="date">
-            <div class="month">
+            <div class="month month-1">
                 <p class="day">06</p>
                 <p class="day">Sep</p>
             </div>
@@ -206,7 +216,7 @@
                 the 1500s, when an unknown printer took a galley of type and
                 scrambled it to make a type specimen book.
             </p>
-            <a href="#">Read More</a>
+            <a class="blue" href="#">Read More</a>
         </div>
         <div class="news_c1">
             <img class="news-img" src="./images/news_02.jpg">
@@ -224,29 +234,37 @@
                 the 1500s, when an unknown printer took a galley of type and
                 scrambled it to make a type specimen book.
             </p>
-            <a href="#">Read More</a>
+            <a class="blue" href="#">Read More</a>
         </div>
     </div>
 </section>
 <section class="padding sec-last">
-	<div class="sec-last-column">
-		<div class="sec-last-c1">
-			 <h1>EVENT...</h1>
-		</div>
-		<div class="sec-last-c1">
-			<p class="about-quick-links">Quick links</p>
-			<a href="#">Program</a>
-			<a href="#">About Us</a>
-			<a href="#">Contact Us</a>
-			<a href="#">Services</a>
-		</div>
-<!-- 		<div class="sec-last-c1">
-			<p>Follow Us</p>
-		</div> -->
-	</div>
+    <div class="sec-last-column">
+        <div class="sec-last-c1">
+             <span class="event">EVENT...</span>
+        </div>
+        
+            <div class="sec-last-c1">
+            <p class="about-quick-links">Quick links</p>
+            <a href="#">Program</a>
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Services</a>
+            </div>
+            <div class="sec-last-c1">
+                <p class="about-quick-links">Follow Us</p>
+                <i class="fab fa-facebook social-icon"></i>
+                <i class="fab fa-twitter-square"></i>
+            </div>
+        </div>
+<!--        <div class="sec-last-c1">
+            <p>Follow Us</p>
+        </div> -->
+    </div>
 </section>
 <footer>
     <p>&copy Event..... Services Pvt Ltd, 2018-Present</p>
+    
 </footer>
 
 
